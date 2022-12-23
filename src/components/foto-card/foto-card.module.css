@@ -1,0 +1,51 @@
+.userCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 200px;
+
+  margin-bottom: 10px;
+  min-width: 200px;
+}
+
+
+.name {
+  position: relative;
+  top: 280px;
+  color: aliceblue;
+}
+
+.userFoto {
+  border: 0;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+}
+
+.colorStar {
+  position: relative;
+  text-align: center;
+  font-size: 2.2em;
+  box-shadow: 0px 5px 15px 1px red;
+  bottom: 13px;
+  border: 1px solid red;
+  border-radius: 50%;
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  color: rgb(238, 240, 244);
+  list-style: none;
+
+  margin-left: 90px;
+}
+
+.colorStar  p {
+  margin: 0;
+
+  position: absolute;
+  top: 40%; 
+  left: 7%;
+  transform: translate(0, -50%);
+}
