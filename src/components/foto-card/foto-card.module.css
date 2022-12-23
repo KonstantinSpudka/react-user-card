@@ -24,6 +24,8 @@
   height: 300px;
 }
 
+
+
 .colorStar {
   position: relative;
   text-align: center;
@@ -45,7 +47,7 @@
   margin: 0;
 
   position: absolute;
-  top: 40%; 
-  left: 7%;
+  top: 47%; 
+  left: 22%;
   transform: translate(0, -50%);
 }

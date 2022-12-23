@@ -1,10 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
 import FotoCard from './components/foto-card';
 
+import InfoCard from './components/info-card';
+
 function App() {
-  return (
+  return (<>
     <FotoCard />
+    <InfoCard />
+    </>
   );
 }
 
